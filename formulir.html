@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <style>
+        .topnav {
+    background-color: #222;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #4da4ff;
+    color: white;
+  }
+  
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  body {
+    background-color: #eff1f2;
+    font-family: sans-serif;}
+
+    a{text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 14px 10px}
+    li a:hover{background: #4da4ff; color:#fff;}
+     ul{padding: 14px}
+     
+
+        body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';}
+        *{box-sizing: border-box;}
+        input[type=text],select,textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgb(red, green, blue);
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=text]{
+            font-family:'Lucida Sans Unicode';
+            font-weight: bold;
+        }
+
+        input[type=submit]{
+            background-color: cornflowerblue;
+            color: bisque;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color:hotpink;
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma,Verdana; 
+            font-weight: lighter,bold;
+        }
+        .container{
+            border-radius: 5px;
+            background-color: rgb(172, 169, 169);
+            padding: 20px;
+            }
+
+    </style>
+</head>
+<body>
+    <nav class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="atribut.html">Attribute</a>
+        <a href="formulir.html">Formulir</a>
+     </nav>
+
+    <h1 style="text-align:center;">FORMULIR PENDAFTARAN</h1>
+    <div class="container">
+   <form>
+    <label for="Name">Nama</label>
+    <input type="text" id="nama" nama="nama" placeholder="Nama Lengkap">
+    <p>
+        <label for="Jenis Kelamin">Jenis Kelamin</label>
+        <input type="checkbox" name="Jenis Kelamin" value="Pria" id="Pria" Pria> Pria
+        <input type="checkbox" name="Jenis Kelamin" value="Wanita" id="Wanita" Wanita> Wanita
+    <p>
+        <label for="Tempat Tanggal Lahir">Tempat Tanggal Lahir</label>
+        <input type="text" id="Tempat Tanggal Lahir" nama="Tempat Tanggal Lahir" placeholder="Tempat Tanggal Lahir">
+    <p>
+        <label for="Umur">Umur</label>
+        <input type="text" id="Umur" nama="Umur" placeholder="Umur">
+    <p>   
+       <label for="Alamat">Alamat</label>
+       <input type="text" id="Alamat" nama="Alamat" placeholder="Alamat">
+    <p>
+        <label for="Asal Sekolah">Asal Sekolah</label>
+        <input type="text" id="Asal Sekolah" nama="Asal Sekolah" placeholder="Asal Sekolah">
+    <p>
+        <label for="NISN">NISN</label>
+        <input type="text" id="NISN" nama="NISN" placeholder="NO.NISN"> 
+    <p>
+        <label for="Nomor Telepon">Nomor Telepon</label>
+        <input type="text" id="Nomor Telepon" nama="Nomor Telepon" placeholder="Nomor Telepon">
+    <p>  
+        <label for="Email">Email</label>
+        <input type="text" id="Email" nama="Email" placeholder="Email"> 
+    <p>
+        <input type="submit" value="Kirim">
+    </p>
+</label>
+</body>
+</html>

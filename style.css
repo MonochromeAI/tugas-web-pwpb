@@ -1,0 +1,26 @@
+a{text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 14px 10px}
+        ul{padding: 14px}
+        li{list-style: none; display: inline;}
+        li a{background: #222; color:#d4d4d4;}
+        li a:hover{background: #4da4ff; color:#fff;}
+        .navi{background: #222; height: 50px}
+
+        table{
+          width: 1300px;
+          border-collapse: collapse;
+        }
+          table,
+          th,
+          td,{
+             border: 0,5px;
+          }
+          th,
+          td{
+             padding: 10px;
+          }
+          .footer{
+                  text-align: center;
+                  padding: 2px;
+                  background-color: gray;
+                  color: black;
+}
